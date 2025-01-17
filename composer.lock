@@ -1,0 +1,91 @@
+{
+  "packages": [
+    {
+      "name": "cakephp/cakephp",
+      "version": "5.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cakephp/cakephp.git",
+        "reference": "5.0.1"
+      },
+      "require": {
+        "php": ">=8.1",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+      }
+    },
+    {
+      "name": "cakephp/authentication",
+      "version": "3.0.0",
+      "require": {
+        "cakephp/cakephp": "^5.0"
+      }
+    },
+    {
+      "name": "cakephp/authorization",
+      "version": "3.0.0",
+      "require": {
+        "cakephp/cakephp": "^5.0"
+      }
+    },
+    {
+      "name": "cakephp/migrations",
+      "version": "4.0.0",
+      "require": {
+        "cakephp/cakephp": "^5.0"
+      }
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "cakephp/debug_kit",
+      "version": "5.0.0",
+      "require": {
+        "cakephp/cakephp": "^5.0",
+        "php": ">=8.1"
+      }
+    },
+    {
+      "name": "phpunit/phpunit",
+      "version": "10.1.0",
+      "require": {
+        "php": ">=8.1"
+      }
+    },
+    {
+      "name": "phpstan/phpstan",
+      "version": "1.10.0"
+    }
+  ],
+  "platform": {
+    "php": ">=8.1.0",
+    "ext-intl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*"
+  },
+  "platform-dev": {
+    "php": ">=8.1.0"
+  },
+  "plugin-api-version": "2.3.0",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "stability-flags": [],
+  "prefer-lowest": false,
+  "platform-check": true,
+  "platform-overrides": {
+    "php": "8.1.0"
+  },
+  "lock": {
+    "plugin-api-version": "2.3.0"
+  },
+  "content-hash": "generated-hash-here",
+  "optimize-autoloader": true,
+  "preferred-install": "dist",
+  "sort-packages": true,
+  "allow-plugins": {
+    "cakephp/plugin-installer": true,
+    "dealerdirect/phpcodesniffer-composer-installer": true
+  }
+}
